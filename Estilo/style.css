@@ -38,9 +38,9 @@ ul.navigation {
 }
 
     /* si tiene tambien la clase show */
-    ul.navigation.show {
-        display: flex;
-    }
+ul.navigation.show {
+    display: flex;
+}
 
 ul.navigation li {
     list-style: none;
@@ -86,6 +86,11 @@ footer{
     background-color: green;
 }
 
+.container-main{
+    display: grid;
+    grid-template-columns: 200px;
+
+}
 
 
 
